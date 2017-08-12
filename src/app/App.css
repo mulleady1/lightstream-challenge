@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+.App .toast {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  width: 150px;
+  margin-left: -75px;
+  padding: 5px 0;
+  text-align: center;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 1px 0px #ddd;
+  background: #fdfdfd;
+}

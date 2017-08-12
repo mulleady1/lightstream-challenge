@@ -1,0 +1,30 @@
+.LandingPage {
+  height: 100%;  
+}
+.LandingPage h2 {
+  height: 60px;
+  margin: 0;
+  padding: 0 0 0 40px;  
+  border-bottom: 1px solid #ddd;
+}
+.LandingPage .ships {
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.LandingPage .ships button {
+  width: 80px;
+  height: 80px;
+  background-color: #0069ff;
+  border: none;
+  margin: 10px
+}
+.LandingPage .ships button:hover {
+  background-color: #0063f9;
+}
+.LandingPage .ships button:active {
+  background-color: #0060f4;
+}
+.LandingPage .border-right {
+  border-right: 1px solid #ddd;
+}

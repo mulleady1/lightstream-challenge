@@ -1,0 +1,51 @@
+.Ship {
+  height: 100%;
+}
+.Ship > .flex-main > :nth-child(1) {
+  flex: 0 0 250px;
+  border-right: 1px solid #ddd;
+}
+.Ship > .flex-main > :nth-child(2) {
+  flex: 1 1 80%;
+}
+.Ship input {
+  flex: 1 1 90%;
+}
+.Ship button {
+  flex: 0 0 60px;
+}
+.Ship header {
+  height: 60px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+}
+.Ship h3 {
+  margin: 0 0 0 25px;
+  padding: 0;
+  align-self: center;
+}
+.Ship h4 {
+  margin: 0;
+  padding: 5px;
+  text-align: left;
+  font-weight: normal;
+  border-bottom: 1px solid #eee;
+}
+.Ship .chat {
+  overflow-y: auto;
+}
+.Ship .chat li {
+  margin: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  text-align: left;
+  padding: 10px;
+}
+.Ship .chat li > div:nth-child(1),
+.Ship .chat li > div:nth-child(2) {
+  font-size: 11px;
+  color: #bbb;
+}
+.Ship .chat li > div:nth-child(3) {
+  margin-top: 5px;
+}
