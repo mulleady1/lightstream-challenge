@@ -7,7 +7,7 @@ const request = require('request');
 const http = require('http').Server(app);
 const io = require('socket.io')(http, { serveClient: false });
 
-const TIMEOUT = 10000;
+const TIMEOUT = 60000;
 
 // Twitch config.
 
